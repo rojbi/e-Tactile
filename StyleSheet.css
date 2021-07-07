@@ -1,0 +1,42 @@
+div#colonne1 {
+	float: left;
+-moz-float: left;
+-webkit-float: left;
+-o-float: left;
+-ms-float: left;
+	width: 160px;
+	background: lightblue;
+height:96%;
+text-align:center;
+vertical-align:middle;
+/* au lieu de valign qui n'est pas ami avec float */
+/*display:inline-block;
+vertical-align:middle;
+overflow:hidden;*/
+/*avoid zooming on the braille touch points*/
+transform:scale(1);
+zoom:reset;
+}
+div#colonne2 {
+	float: right;
+-moz-float: right;
+-webkit-float: right;
+-o-float: right;
+-ms-float: right;
+
+	width: 160px;
+	background: lightblue;
+height:96%;
+text-align:center; vertical-align:middle;
+/*avoid zooming on the braille touch points*/
+transform:scale(1);
+
+}
+div#centre {
+	background: #eeeeef;/*khaki;*/
+margin-left: 170px;
+	margin-right: 170px;
+height:96%;
+text-align:center;
+}
+circle.circle:active{fill:#0000FF;fill-opacity:1;}
